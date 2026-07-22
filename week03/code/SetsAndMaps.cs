@@ -26,7 +26,6 @@ public static class SetsAndMaps
 
         foreach (var word in words)
         {
-            // Ignore words like "aa"
             if (word[0] == word[1])
                 continue;
 
@@ -41,6 +40,7 @@ public static class SetsAndMaps
         }
 
         return pairs.ToArray();
+    }
 
 
     /// <summary>
